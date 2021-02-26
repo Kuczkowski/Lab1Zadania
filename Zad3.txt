@@ -6,7 +6,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         System.out.println("Podaj temperature podana w stopniach Celsjusza a program przekonwertuje je na Fahrenheity:");
         int stopnie = scan.nextInt();
-        double Fh=1.8*stopnie+32;
+        double Fh=(double)9/5*stopnie+32;
         System.out.println(Fh);
     }
 }
